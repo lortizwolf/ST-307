@@ -1,0 +1,74 @@
+**************************;
+*****Author: Luis Ortiz III;
+*****Homework 1;
+*****Date: 9/18/23; 
+ 
+***Make libname statement;
+ 
+ libname ncsu "/home/u63548610/Fall 2023";
+*****/Import CSV File/****;
+
+PROC IMPORT REPLACE DATAFILE = "/home/u63548610/Fall 2023/credit_risk.csv"
+DBMS = CSV 
+
+OUT =ncsu.creditrisk2;
+getnames = YES;
+RUN;
+
+*******Code to rename Emp_length and Cred_length;
+ 
+DATA ncsu.creditrisk2;
+SET ncsu.creditrisk2;
+
+RENAME Emp_length = Length_of_Employment
+      Cred_length = Length_of_Credit_History;
+      
+  ******Code to remove Home and Intent variables; 
+  
+      DROP Home;
+      DROP Intent;
+      RUN;
+  
+  
+
+******Code that sorts out the dataset by the Income Variable;
+
+PROC SORT DATA = ncsu.creditrisk2 OUT = sortedCreditRisk2;
+BY Income;
+RUN;
+
+
+
+*******Code that prints out the first twenty rows of the sorted dataset;
+
+PROC PRINT DATA = sortedCreditRisk2 (OBS=20);
+RUN;
+
+ 
+***********************************************************************;
+
+
+******I am a senior and a marketing major in the Poole College of Management.; 
+******As a marketing major, I will use the data from consumers to predict their needs.;
+******I will also be using data to understand consumer demographics such as where their purchases are being made.; 
+******As a marketing major, it is crucial to understand that using data is a strategic investment, if the data is inaccurate, profits will be lost.;
+******For this datafile as a marketer, I will be using this data for strategic purposes of where purchases are being made across the state of New York.; 
+******Specifically, I will use this data to help my clients make the decision of where to invest.;
+
+
+FILENAME FOOD '/home/u63548610/Fall 2023/Retail_Food_Stores.csv';
+
+PROC IMPORT REPLACE DATAFILE = "/home/u63548610/Fall 2023/Retail_Food_Stores.csv"
+DBMS = CSV
+OUT = ncsu.food2;
+GETNAMES = YES;
+RUN;
+
+
+*******https://catalog.data.gov/dataset/retail-food-stores;
+
+*******This dataset is of interest to me because of the fact that as 
+*******a marketer, I will use this data from New York to understand where consumers make purchases across the state in terms of retail food stores;
+
+
+
