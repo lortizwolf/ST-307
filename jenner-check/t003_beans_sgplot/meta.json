@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_beans_sgplot",
+  "source_file": "Homework 2 (7).sas",
+  "source_blob_sha": "70d29b0345901a154e7670ab65e6db4aaa927666",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original computes an avg shape factor then plots MinorAxisLength vs MajorAxisLength colored by avg with PROC SGPLOT, and repeats it paneled by class with PROC SGPANEL; PROC IMPORT of the live Dry_Bean_Dataset.xlsx URL was replaced with a 20-row inline DATALINES sample across the five classes plotted."
+}

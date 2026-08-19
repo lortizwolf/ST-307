@@ -1,0 +1,36 @@
+          The GLM Procedure          
+
+Number of Observations Read        15
+Number of Observations Used        15
+
+                                 The GLM Procedure                                 
+                           Dependent Variable: saleprice                           
+
+Source                 DF     Sum of Squares        Mean Square   F Value    Pr > F
+---------------  --------  -----------------  -----------------  --------  --------
+Model                   2  41130785520.91046  20565392760.45523      8.20    0.0057
+Error                  12  30090791812.42287   2507565984.36857                    
+Corrected Total        14  71221577333.33333                                       
+
+R-Square  Coeff Var      Root MSE  SalePrice Mean
+--------  ---------  ------------  --------------
+0.577505   23.39034  50075.602686   214086.666667
+
+Source              DF          Type I SS        Mean Square   F Value    Pr > F
+------------  --------  -----------------  -----------------  --------  --------
+YearRemodAdd         1  13891500181.48147  13891500181.48147      5.54    0.0365
+GrLivArea            1  27239285339.42899  27239285339.42899     10.86    0.0064
+
+Source              DF        Type III SS        Mean Square   F Value    Pr > F
+------------  --------  -----------------  -----------------  --------  --------
+YearRemodAdd         1   6620872629.06938   6620872629.06938      2.64    0.1301
+GrLivArea            1  27239285339.42899  27239285339.42899     10.86    0.0064
+
+                      Parameter Estimates                       
+
+Parameter           Estimate  Standard Error   t Value  Pr > |t|
+------------  --------------  --------------  --------  --------
+Intercept     -3175453.75762   1952196.99440     -1.63    0.1298
+YearRemodAdd      1600.20424       984.79081      1.62    0.1301
+GrLivArea          119.85837        36.36610      3.30    0.0064
+

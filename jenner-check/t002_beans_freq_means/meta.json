@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_beans_freq_means",
+  "source_file": "Homework 2 (7).sas",
+  "source_blob_sha": "70d29b0345901a154e7670ab65e6db4aaa927666",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original renames the four ShapeFactor variables, drops AspectRatio/Extent, labels three variables, filters to five bean classes, computes an avg shape factor, then runs PROC FREQ (avg < 0.42) and PROC MEANS by class on Area/Perimeter; PROC IMPORT of the live Dry_Bean_Dataset.xlsx URL was replaced with a 20-row inline DATALINES sample carrying the same columns across the five classes referenced in the WHERE clause."
+}

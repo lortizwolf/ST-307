@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_foodstores_freq_means",
+  "source_file": "Homework 2 (7).sas",
+  "source_blob_sha": "70d29b0345901a154e7670ab65e6db4aaa927666",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original renames seven space-containing column names (from a public NY State Retail Food Stores CSV) using SAS name-literal ('name'n) syntax, then runs PROC FREQ on county and square_footage and PROC MEANS on square_footage; PROC IMPORT of the local Retail_Food_Stores.csv path was replaced with a 20-row inline DATALINES sample carrying the same seven fields, renamed via a RENAME= dataset option to the original space-containing names so the 'name'n rename block runs unmodified."
+}
