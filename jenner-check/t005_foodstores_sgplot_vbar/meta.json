@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_foodstores_sgplot_vbar",
+  "source_file": "Homework 2 (7).sas",
+  "source_blob_sha": "70d29b0345901a154e7670ab65e6db4aaa927666",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original plots a VBAR of store count by county with PROC SGPLOT, then a PROC SGPANEL scatter of establishment_type vs square_footage paneled by state and grouped by county; PROC IMPORT of the local Retail_Food_Stores.csv path was replaced with a 20-row inline DATALINES sample carrying county/establishment_type/square_footage/state."
+}

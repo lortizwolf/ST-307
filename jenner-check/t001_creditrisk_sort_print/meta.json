@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_creditrisk_sort_print",
+  "source_file": "Homework 1",
+  "source_blob_sha": "84b7c08febacdc9fe99ab7fa0d2325924a57c55f",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original renames Emp_length/Cred_length, drops Home/Intent, sorts by Income, and prints the first 20 rows via PROC SORT + PROC PRINT; PROC IMPORT of a local credit_risk.csv path was replaced with a 20-row inline DATALINES sample carrying the same columns the script actually consumes (Income, Emp_length, Cred_length, Home, Intent)."
+}

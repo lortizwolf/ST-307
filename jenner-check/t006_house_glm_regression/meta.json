@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_house_glm_regression",
+  "source_file": "Final SAS Project",
+  "source_blob_sha": "66f8e6d55071f2ff5a09cea9549d4080034b1ce6",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original deletes rows where MoSold <= 4, computes PriceInMillions, drops BsmtUnfSF/RoofMatl, plots YearRemodAdd vs SalePrice by ExterQual, then fits PROC GLM SalePrice = YearRemodAdd GrLivArea with CLPARM and ODS plots=all; PROC IMPORT of the live lortiz_house.csv URL was replaced with a 20-row inline DATALINES sample (Ames-housing-style rows) carrying the columns the script consumes. The source script itself computes PriceInMillions from a column named SalesPrice (with an s) while the GLM model and SGPLOT reference SalePrice (no s) -- an inconsistency in the student's own code; this bundle uses the single consistent column name SalePrice throughout since that is what the regression and plot actually exercise."
+}

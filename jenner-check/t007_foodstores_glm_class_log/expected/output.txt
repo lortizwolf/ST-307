@@ -1,0 +1,62 @@
+          The GLM Procedure           
+       Class Level Information        
+
+Class                 Levels  Values  
+------------------  --------  --------
+establishment_type         2  JABC JAC
+
+Number of Observations Read        20
+Number of Observations Used        20
+
+                                 The GLM Procedure                                  
+                         Dependent Variable: square_footage                         
+
+Source                 DF      Sum of Squares        Mean Square   F Value    Pr > F
+---------------  --------  ------------------  -----------------  --------  --------
+Model                   1     241221823.23232    241221823.23232      0.01    0.9103
+Error                  18  332590627676.76770  18477257093.15376                    
+Corrected Total        19  332831849500.00000                                       
+
+R-Square  Coeff Var       Root MSE  square_footage Mean
+--------  ---------  -------------  -------------------
+0.000725  304.81237  135931.074788         44595.000000
+
+Source                    DF        Type I SS      Mean Square   F Value    Pr > F
+------------------  --------  ---------------  ---------------  --------  --------
+establishment_type         1  241221823.23232  241221823.23232      0.01    0.9103
+
+Source                    DF      Type III SS      Mean Square   F Value    Pr > F
+------------------  --------  ---------------  ---------------  --------  --------
+establishment_type         1  241221823.23230  241221823.23230      0.01    0.9103
+
+          The GLM Procedure           
+       Class Level Information        
+
+Class                 Levels  Values  
+------------------  --------  --------
+establishment_type         2  JABC JAC
+
+Number of Observations Read        20
+Number of Observations Used        20
+
+                            The GLM Procedure                             
+               Dependent Variable: log_square_footage_plus5               
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1         0.02495      0.02495      0.01    0.9260
+Error                  18        50.66963      2.81498                    
+Corrected Total        19        50.69458                                 
+
+R-Square  Coeff Var  Root MSE  log_square_footage_plus5 Mean
+--------  ---------  --------  -----------------------------
+0.000492   20.36771  1.677790                       8.237501
+
+Source                    DF  Type I SS  Mean Square   F Value    Pr > F
+------------------  --------  ---------  -----------  --------  --------
+establishment_type         1    0.02495      0.02495      0.01    0.9260
+
+Source                    DF  Type III SS  Mean Square   F Value    Pr > F
+------------------  --------  -----------  -----------  --------  --------
+establishment_type         1      0.02495      0.02495      0.01    0.9260
+

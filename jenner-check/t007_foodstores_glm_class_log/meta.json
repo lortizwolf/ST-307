@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_foodstores_glm_class_log",
+  "source_file": "Final SAS Project",
+  "source_blob_sha": "66f8e6d55071f2ff5a09cea9549d4080034b1ce6",
+  "source_commit": "a2bcb20d142582d2d6f852c449db98c236f671f4",
+  "notes": "Original fits PROC GLM square_footage = establishment_type (CLASS-based one-way ANOVA with CLPARM and plots=all), then recomputes a log-transformed response (log(square_footage+5)) and re-fits the same CLASS model; PROC IMPORT of the local Retail_Food_Stores.csv path was replaced with a 20-row inline DATALINES sample carrying establishment_type/square_footage across the two levels the CLASS statement groups by."
+}
